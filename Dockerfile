@@ -1,5 +1,5 @@
 # Base image
-FROM python:3.11
+FROM python:slim-bullseye
 
 # Set the working directory inside the container.
 WORKDIR /app
